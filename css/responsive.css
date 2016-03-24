@@ -1,0 +1,148 @@
+/*
+ * RESPONSIVE.CSS
+ * ======================================================/
+ *
+ * CSS Structure Guidelines
+ * ------------------------------------------------------/
+ * 
+ * General
+ *
+ *
+ * CSS Rule Stucture Guidelines
+ * ------------------------------------------------------/
+ *
+ * Display/Position/Float
+ * Width/Height
+ * Margin/Padding
+ * Color
+ * Font/Line Height
+ * Background
+ * 
+ *
+ */
+
+
+/* Styles for 480px and above
+------------------------------------------------------ */
+@media screen and (min-width: 480px) {
+
+  /* Two column layout */
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  /* Page - Portfolio */
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /* Page - About */
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  
+  
+}
+
+
+
+/* Styles for 660px and above
+------------------------------------------------------ */
+@media screen and (min-width: 660px) {
+
+  /* Header */
+  /* The course default is below but becasue of the extra item in my nav I have made some unique styles */
+  /* nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  } 
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  } */
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0 0 0.4em;
+  }
+  
+  h2 {
+    font-size: 1.125em;
+    margin-bottom: 1em;
+  }
+  
+  header {
+    /* border-bottom: 6px solid #006260; Course default is to have the border added here */
+    margin-bottom: 60px;
+  }
+  
+}
+
+/* Styles for my site onyl NOT course default
+ * Mainly needed becasuse of the extra nav item
+------------------------------------------------------ */
+@media screen and (min-width: 660px) {
+
+  /* Header */
+  nav li {
+    display: inline-block;
+  }
+  
+  nav li:not(:last-of-type) {
+    border-bottom: none;
+  }
+  
+}
+@media screen and (min-width: 1200px) {
+  
+  header {
+    border-bottom: 6px solid #006260;
+  }
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 60%;
+  } 
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 30%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+

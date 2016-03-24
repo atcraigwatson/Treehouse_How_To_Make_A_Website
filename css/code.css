@@ -1,0 +1,118 @@
+/*
+ * MAIN.CSS
+ * ======================================================/
+ *
+ * CSS Structure Guidelines
+ * ------------------------------------------------------/
+ * 
+ * General
+ *
+ *
+ * CSS Rule Stucture Guidelines
+ * ------------------------------------------------------/
+ *
+ * Display/Position/Float
+ * Width/Height
+ * Margin/Padding
+ * Color
+ * Font/Line Height
+ * Background
+ * 
+ *
+ *
+ * Color Guidelines
+ * ------------------------------------------------------/
+ *
+ * Green XDark         : #003C3B
+ * Green Dark          : #006260
+ * Green Default       : #007C79
+ * Green Light         : #008985
+ * Green XLight        : #00C8C4
+ * Green XXLight       : #C8EDE7
+ *
+ * Blue Accent         : #076685
+ * Blue Accent Hover   : #043F52
+ *
+ * Purple Accent       : #7F3666
+ * Purple Accent Hover : #4C203D
+ *
+ */
+
+
+/* General
+------------------------------------------------------ */
+
+blockquote {
+  margin: 0 1em;
+  padding: 1em;
+  font-size: 1.2em;
+  border-left: 4px solid #008985;
+}
+
+code {
+  padding: 1px 4px;
+  margin: 2px 0;
+  color: #7F3666;
+  font-weight: 400;
+  font-family: 'Roboto Mono', sans-serif;
+  background: #dedede;
+  border-radius: 2px;
+}
+
+.code-heading::before {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  margin-left: -30px;
+  background-image: url(../img/link.png);
+  background-repeat: no-repeat;
+  background-size: 25px 50px;
+  background-clip: content-box;
+}
+.code-heading:hover {
+  background-position: bottom left;
+}
+
+.code-heading code {
+  padding: 4px 8px;
+  color: #efefef;
+  font-size: 1.12em;
+  background: #7F3666;
+  border-radius: 4px;
+}
+.code-heading code:hover {
+  background: #4C203D;
+}
+
+.code-desc {
+  margin-bottom: 3em;
+}
+
+.code-desc code {
+  display: inline-block;
+}
+
+.css-term {
+  margin: 0 0 4px;
+}
+
+.css-term-desc {
+  margin: 0 0 1em;
+}
+
+.css-rule-item-heading {
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+

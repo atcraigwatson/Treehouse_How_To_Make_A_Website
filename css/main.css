@@ -1,0 +1,313 @@
+
+/*
+ * MAIN.CSS
+ * ======================================================/
+ *
+ * CSS Structure Guidelines
+ * ------------------------------------------------------/
+ * 
+ * General
+ *
+ *
+ * CSS Rule Stucture Guidelines
+ * ------------------------------------------------------/
+ *
+ * Display/Position/Float
+ * Width/Height
+ * Margin/Padding
+ * Color
+ * Font/Line Height
+ * Background
+ * 
+ *
+ *
+ * Color Guidelines
+ * ------------------------------------------------------/
+ *
+ * Green XDark         : #003C3B
+ * Green Dark          : #006260
+ * Green Default       : #007C79
+ * Green Light         : #008985
+ * Green XLight        : #00C8C4
+ * Green XXLight       : #C8EDE7
+ *
+ * Blue Accent         : #076685
+ * Blue Accent Hover   : #043F52
+ *
+ * Purple Accent       : #7F3666
+ * Purple Accent Hover : #4C203D
+ *
+ */
+
+
+/* General
+------------------------------------------------------ */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.45;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  font-size: 1.4em; /* Not Default on Course */
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+
+/* Heading
+------------------------------------------------------ */
+header {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 16px 0 0 0;
+}
+
+#logo {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 15px 12px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  line-height: 0.8em;
+}
+
+h2 {
+  margin: 6px 0 0;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+
+
+/* Navigation
+------------------------------------------------------ */
+nav {
+  margin: 20px 0 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  /* display: inline-block; course default */
+  display: block; /* For my purpose this feels better as a mobile first approach */
+}
+
+nav li:not(:last-of-type) {
+  border-bottom: 1px solid #003C3B; /* Not in the course as Nicks items are displayed inline-block */
+}
+
+nav a {
+  display: block;
+  padding: 16px 20px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 500;
+}
+
+
+/* Footer
+------------------------------------------------------ */
+footer {
+  padding-top: 50px;
+  color: #aaa;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/* Page - Portfolio
+------------------------------------------------------ */
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #e3e3e3;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  color: #006260;
+  font-size: 0.75em;
+}
+
+
+
+/* Page - About
+------------------------------------------------------ */
+.profile-photo {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/* Page - Contact
+------------------------------------------------------ */
+.contact-info {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  list-style: none;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  margin: 0 0 10px;
+  padding: 0 0 0 30px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+/* Colours
+------------------------------------------------------ */
+body {
+  background-color: #f2f2f2;
+  color: #6a6a6a;
+}
+
+header {
+  background: #007C79;
+  border-color: #006260;
+}
+
+nav {
+  background: #006260;
+}
+
+nav a,
+nav a:visited {
+  color: #ffffff;
+}
+
+nav a.selected,
+nav a:hover {
+  color: #00C8C4;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+}
+
+a {
+  color: #00C8C4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+/*
+ * EXPLAINED.CSS
+ * ======================================================/
+ *
+ * This document will outline some of the basic points 
+ * covered in the video "What is CSS".
+ *
+ *
+ * Vocabulary
+ * ------------------------------------------------------/
+ * CSS - Cascading Style Sheets, the computer code that 
+ * defines the visual presentation of web pages.
+ *
+ * Rule - The entirety of a CSS selector and its
+ * declarations.
+ *
+ * Selector - CSS syntax that defines elements on a page
+ * to which declarations should be applied.
+ *
+ * Declaration - Pairs of CSS properties and values that
+ * define how an element should be styled.
+ *
+ * Property - CSS syntax that defines which part of an
+ * element should be styled, such as its color, size,
+ * position, and so on.
+ *
+ * Value - CSS syntax that sets the variable units for
+ * properties.
+ *
+ *
+ * CSS Rule Explained
+ * ------------------------------------------------------/
+ * footer {
+ *   color: green;
+ * }
+ *
+ * Rule = All the above
+ * Selector = footer
+ * Declaration = color: green;
+ * Property = color
+ * Value = green
+ * {} = Encapsulate a single or multiple CSS Declarations
+ *
+ * The above CSS Rule will turn the text "color" in the
+ * "footer" to "green"
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
