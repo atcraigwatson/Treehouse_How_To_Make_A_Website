@@ -1,28 +1,28 @@
 /*
- * MAIN.CSS
+ * CODE.CSS
  * ======================================================/
  *
- * CSS Structure Guidelines
+ *
+ * CSS File Structure Guidelines
  * ------------------------------------------------------/
- * 
- * General
+ * Root ( HTML / Body )
+ * Base ( Typography / Links / Inputs / Forms / Tables / Buttons ect. )
+ * Layout ( This is site structure layout, component layouts are done within that componant itself )
+ * Components ( Dropdowns / Navs / Alerts / Panels )
  *
  *
  * CSS Rule Stucture Guidelines
  * ------------------------------------------------------/
- *
- * Display/Position/Float
- * Width/Height
- * Margin/Padding
- * Color
- * Font/Line Height
- * Background
- * 
+ * Display / Position / Float
+ * Width / Height
+ * Margin / Padding
+ * Colors
+ * Font / Text / Line Height
+ * Other
  *
  *
  * Color Guidelines
  * ------------------------------------------------------/
- *
  * Green XDark         : #003C3B
  * Green Dark          : #006260
  * Green Default       : #007C79
@@ -30,11 +30,9 @@
  * Green XLight        : #00C8C4
  * Green XXLight       : #C8EDE7
  *
- * Blue Accent         : #076685
- * Blue Accent Hover   : #043F52
- *
  * Purple Accent       : #7F3666
  * Purple Accent Hover : #4C203D
+ *
  *
  */
 
@@ -47,6 +45,14 @@ blockquote {
   padding: 1em;
   font-size: 1.2em;
   border-left: 4px solid #008985;
+}
+
+pre {
+  padding: 1em;
+  color: #fff;
+  background: #008985;
+  border-radius: 6px;
+  border-bottom: 4px solid #006260;
 }
 
 code {
@@ -104,15 +110,3 @@ code {
 .css-rule-item-heading {
   font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
-
-
-
