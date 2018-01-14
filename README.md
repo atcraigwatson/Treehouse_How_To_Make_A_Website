@@ -6,7 +6,7 @@ Please feel free to requests any changes to this repository that may help!
 
 I have used the gh-pages branch for this repository to host a working version of the site, the link below will get you there.
 
-[How to Make a Website](http://rokkitpress.github.io/Treehouse_How_To_Make_A_Website/)
+[How to Make a Website](http://atcraigwatson.github.io/Treehouse_How_To_Make_A_Website/)
 
 There is an extra page on this site that explains the HTML used and what it is used for as well as some information in the CSS used.
 
